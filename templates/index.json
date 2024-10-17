@@ -1,0 +1,28 @@
+{
+    "sections": {
+        "hero": {
+            "type": "hero"
+        },
+        "category": {
+            "type": "category"
+        },
+        "links": {
+            "type": "links"
+        },
+        "content": {
+            "type": "content"
+        },
+        "standard_prefooter": {
+            "type": "standard_prefooter"
+        }
+    },
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "hero",
+        "category",
+        "links",
+        "content",
+        "standard_prefooter"
+    ]
+}

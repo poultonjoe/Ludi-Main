@@ -1,0 +1,20 @@
+{
+    "sections": {
+        "collection_hero": {
+            "type": "collection_hero"
+        },
+        "collection_products": {
+            "type": "collection_products"
+        },
+        "collection_prefooter": {
+            "type": "collection_prefooter"
+        }
+    },
+    "layout": "collection",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "collection_hero",
+        "collection_products",
+        "collection_prefooter"
+    ]
+}
