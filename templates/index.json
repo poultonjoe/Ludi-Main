@@ -25,36 +25,21 @@
     "category": {
       "type": "category",
       "settings": {
-        "text_headline": "Short heading here",
-        "url_button_link": "",
+        "text_headline": "Premiere Series",
+        "url_button_link": "shopify://collections/premiere-series",
         "text_button_text": "All products",
-        "collection_collection": "",
-        "collection_collection_limit": 6
+        "collection_collection": "premiere-series",
+        "collection_collection_limit": 4
       }
     },
-    "links": {
-      "type": "links",
+    "category_793Ftt": {
+      "type": "category",
       "settings": {
-        "text_headline": "Short heading here"
-      }
-    },
-    "content": {
-      "type": "content",
-      "settings": {
-        "text_headline": "Short heading here",
-        "text_button_text": "All Articles",
-        "url_button_link": "",
-        "url_artikel_1_link": "",
-        "text_artikel_1_titel": "Blog title heading will go here",
-        "text_artikel_1_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "article_artikel_2": "",
-        "url_artikel_2_link": "",
-        "text_artikel_2_titel": "Blog title heading will go here",
-        "text_artikel_2_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-        "article_artikel_3": "",
-        "url_artikel_3_link": "",
-        "text_artikel_3_titel": "Blog title heading will go here",
-        "text_artikel_3_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
+        "text_headline": "Pro Series",
+        "url_button_link": "shopify://collections/pro-series",
+        "text_button_text": "All products",
+        "collection_collection": "pro-series",
+        "collection_collection_limit": 4
       }
     },
     "prefooter_image_choi_gpJgFr": {
@@ -72,8 +57,7 @@
   "order": [
     "hero",
     "category",
-    "links",
-    "content",
+    "category_793Ftt",
     "prefooter_image_choi_gpJgFr"
   ]
 }
