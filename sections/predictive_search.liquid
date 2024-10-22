@@ -1,6 +1,6 @@
-{% if predictive_search.performed %}    <div li-if="predictive_search.performed">
+{% if predictive_search.performed %}    <div li-if="predictive_search.performed" class="predictive-search_conditional">
     {% assign first_column_results_size = predictive_search.resources.queries.size | plus: predictive_search.resources.collections.size | plus: predictive_search.resources.pages.size | plus: predictive_search.resources.articles.size | plus: predictive_search.resources.products.size %}
-{% if first_column_results_size > 0 %}    <div li-if="first_column_results_size > 0">
+{% if first_column_results_size > 0 %}    <div li-if="first_column_results_size > 0" class="predictive-search_conditional">
     {% if predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0 %}    <div li-if="predictive_search.resources.queries.size > 0 or predictive_search.resources.collections.size > 0" class="predictive-search_topic">
     <div class="predictive-search_headline"><div class="text-style-muted">Suggestions</div></div><ul role="list" class="predictive-search_list w-list-unstyled">{% for query in predictive_search.resources.queries %}    <li li-for="query in predictive_search.resources.queries" class="predictive-search_item">
                                     
@@ -29,11 +29,11 @@
                         </li>
 {% endfor %}</ul>    </div>
 {% endif %}    </div>
-{% endif %}{% if first_column_results_size == 0 %}    <div li-if="first_column_results_size == 0">
+{% endif %}{% if first_column_results_size == 0 %}    <div li-if="first_column_results_size == 0" class="predictive-search_conditional">
     <div class="predictive-search_topic"><div class="text-style-muted">Nothing found in "<span li-object="predictive_search.terms">{{ predictive_search.terms }}</span>"</div></div>    </div>
 {% endif %}    </div>
-{% endif %}{% unless predictive_search.performed %}    <div li-unless="predictive_search.performed">
-    <div class="predictive-search_overflow"><div><div><div class="predictive-search_topic"><div class="predictive-search_headline"><div class="text-style-muted">Suggestions</div></div><ul role="list" class="predictive-search_list w-list-unstyled">{% for block in section.blocks %}
+{% endif %}{% unless predictive_search.performed %}    <div li-unless="predictive_search.performed" class="predictive-search_conditional">
+    <div class="predictive-search_overflow"><div class="predictive-search_topic"><div class="predictive-search_headline"><div class="text-style-muted">Suggestions</div></div><ul role="list" class="predictive-search_list w-list-unstyled">{% for block in section.blocks %}
     {% if block.type == "vorschlaege" %}
                     <li li-block="Vorschlaege" class="predictive-search_item">
                                     <a href="{{ block.settings.url_link }}" class="predictive-search_link w-inline-block"> <div>{{ block.settings.text_text }}</div> </a>
@@ -49,5 +49,5 @@
     
 </li>
 {% endfor %}
-</ul></div></div></div></div>    </div>
-{% endunless %} {% schema %} {"tag":"div","name":"predictive_search","blocks":[{"name":"Vorschlaege","type":"vorschlaege","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_text","type":"text","label":"Text","default":"Tag"}]}],"settings":[{"id":"collection_bestseller","type":"collection","label":"Bestseller"},{"type":"range","id":"collection_bestseller_limit","min":1,"max":99,"step":1,"label":"Limit: Bestseller","default":6}],"presets":[{"name":"predictive_search","category":"Liquify"}]} {% endschema %}
+</ul></div></div>    </div>
+{% endunless %} {% schema %} {"tag":"div","name":"predictive_search","class":"predictive-search_section","blocks":[{"name":"Vorschlaege","type":"vorschlaege","settings":[{"id":"url_link","type":"url","label":"Link"},{"id":"text_text","type":"text","label":"Text","default":"Tag"}]}],"settings":[{"id":"collection_bestseller","type":"collection","label":"Bestseller"},{"type":"range","id":"collection_bestseller_limit","min":1,"max":99,"step":1,"label":"Limit: Bestseller","default":6}],"presets":[{"name":"predictive_search","category":"Liquify"}]} {% endschema %}
