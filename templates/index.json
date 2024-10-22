@@ -1,28 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "hero": {
-            "type": "hero"
-        },
-        "category": {
-            "type": "category"
-        },
-        "links": {
-            "type": "links"
-        },
-        "content": {
-            "type": "content"
-        },
-        "standard_prefooter": {
-            "type": "standard_prefooter"
-        }
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "text_headline": "LUDI Paddle Club",
+        "richtext_text": "<p>We believe in living life to the fullest while staying ahead of the game</p>",
+        "collection_all_paddles_1": "all-paddles",
+        "collection_all_paddles_1_limit": 6,
+        "collection_all_paddles_2": "all-paddles",
+        "collection_all_paddles_2_limit": 6,
+        "collection_all_paddles_3": "all-paddles",
+        "collection_all_paddles_3_limit": 6
+      }
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "hero",
-        "category",
-        "links",
-        "content",
-        "standard_prefooter"
-    ]
+    "category": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Short heading here",
+        "url_button_link": "",
+        "text_button_text": "All products",
+        "collection_collection": "",
+        "collection_collection_limit": 6
+      }
+    },
+    "prefooter_image_choi_YEFiee": {
+      "type": "prefooter_image_choi",
+      "settings": {
+        "image_top_left": "shopify://shop_images/240623_-_Ludi13151-Edit-min.jpg",
+        "image_top_right": "shopify://shop_images/pickleball-row.jpg",
+        "image_bottom_left": "shopify://shop_images/240623_-_Ludi12875-Edit-min.jpg",
+        "image_bottom_right": "shopify://shop_images/240623_-_Ludi13040-Edit-min.jpg"
+      }
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "hero",
+    "category",
+    "prefooter_image_choi_YEFiee"
+  ]
 }
