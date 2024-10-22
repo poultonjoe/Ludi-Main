@@ -5,7 +5,7 @@
     Not in Stock    </div>
 {% endif %}{% if product.compare_at_price_max > product.price %}    <div li-if="product.compare_at_price_max > product.price" class="product-item_tag is-red">
     Sale    </div>
-{% endif %}</div><div class="div-block-25">{% if product.available == true %}    <div li-if="product.available == true">
+{% endif %}</div><div class="add-to-cart_container">{% if product.available == true %}    <div li-if="product.available == true">
     <a li-element="add-to-cart" href="#" class="button max-width-full opposite w-button" @click="addToCart(true)" :disabled="!addToCartButton">Add to Cart</a>    </div>
 {% endif %}{% if product.available != true %}    <div li-if="product.available != true">
     <a href="#" class="button is-secondary pointer-events-off max-width-full w-button">Not in Stock</a>    </div>
