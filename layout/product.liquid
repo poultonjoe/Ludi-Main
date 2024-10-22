@@ -139,20 +139,7 @@ background-color: #034732;
                 }
             });
         });
-    </script><script>$(document).ready(function() {
-    var $menuBar = $('.nav_component'); // Adjust this selector to your menu bar
-    var $whiteDiv = $('.scroll-trigger'); // Adjust this selector to your white div
-    var whiteDivOffset = $whiteDiv.offset().top; // Get the offset of the white div from the top
-    $(window).scroll(function() {
-        var scrollPosition = $(window).scrollTop(); // Get the current scroll position
-        if (scrollPosition >= whiteDivOffset) {
-            $menuBar.css('background-color', '#034732'); // Change the menu background color when above the white div
-        } else {
-            $menuBar.css('background-color', 'transparent'); // Reset to original color (or any other color)
-        }
-    });
-});
-</script><script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>$(".swiper-container").each(function (index) {
+    </script><script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script><script>$(".swiper-container").each(function (index) {
     const thumbsSwiper = new Swiper($(this).find(".swiper.is-product-thumbnail")[0], {
       slidesPerView: "auto",
       rewind: false,

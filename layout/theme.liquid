@@ -69,20 +69,7 @@
                 }
             });
         });
-    </script><script>$(document).ready(function() {
-    var $menuBar = $('.nav_component'); // Adjust this selector to your menu bar
-    var $whiteDiv = $('.scroll-trigger'); // Adjust this selector to your white div
-    var whiteDivOffset = $whiteDiv.offset().top; // Get the offset of the white div from the top
-    $(window).scroll(function() {
-        var scrollPosition = $(window).scrollTop(); // Get the current scroll position
-        if (scrollPosition >= whiteDivOffset) {
-            $menuBar.css('background-color', '#034732'); // Change the menu background color when above the white div
-        } else {
-            $menuBar.css('background-color', 'transparent'); // Reset to original color (or any other color)
-        }
-    });
-});
-</script><script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><script>$(".slider-gallery_component").each(function (index) {
+    </script><script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><script>$(".slider-gallery_component").each(function (index) {
   const bgSwiper = new Swiper($(this).find(".swiper.is-slider-bg")[0], {
     slidesPerView: 1,
     speed: 400,
@@ -119,6 +106,19 @@
   });
   textSwiper.controller.control = thumbsSwiper;
   thumbsSwiper.controller.control = textSwiper;
+});
+</script><script>$(document).ready(function() {
+    var $menuBar = $('.nav_component'); // Adjust this selector to your menu bar
+    var $whiteDiv = $('.scroll-trigger'); // Adjust this selector to your white div
+    var whiteDivOffset = $whiteDiv.offset().top; // Get the offset of the white div from the top
+    $(window).scroll(function() {
+        var scrollPosition = $(window).scrollTop(); // Get the current scroll position
+        if (scrollPosition >= whiteDivOffset) {
+            $menuBar.css('background-color', '#034732'); // Change the menu background color when above the white div
+        } else {
+            $menuBar.css('background-color', 'transparent'); // Reset to original color (or any other color)
+        }
+    });
 });
 </script>
 </body>
