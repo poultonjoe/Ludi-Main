@@ -1737,7 +1737,9 @@ figcaption {
 }
 
 .nav_dropdown-list.no-scrollbar.w--open {
-  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
 }
 
 .nav_dropdown-link {
@@ -2426,9 +2428,11 @@ figcaption {
   grid-template-columns: 1fr;
   grid-auto-columns: 1fr;
   grid-auto-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  display: grid;
+  display: flex;
 }
 
 .footer_trennlinie {
