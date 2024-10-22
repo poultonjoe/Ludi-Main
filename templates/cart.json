@@ -1,12 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "cart": {
-            "type": "cart"
-        }
+  "sections": {
+    "cart": {
+      "type": "cart",
+      "settings": {
+      }
     },
-    "layout": "cart",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "cart"
-    ]
+    "prefooter_image_choi_tEK9Tz": {
+      "type": "prefooter_image_choi",
+      "settings": {
+      }
+    }
+  },
+  "layout": "cart",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "cart",
+    "prefooter_image_choi_tEK9Tz"
+  ]
 }
