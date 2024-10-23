@@ -14,11 +14,11 @@
       "settings": {
         "text_headline": "LUDI Paddle Club",
         "richtext_text": "<p>We believe in living life to the fullest while staying ahead of the game</p>",
-        "collection_all_paddles_1": "pro-series",
+        "collection_all_paddles_1": "all-paddles",
         "collection_all_paddles_1_limit": 6,
-        "collection_all_paddles_2": "pro-series",
+        "collection_all_paddles_2": "all-paddles",
         "collection_all_paddles_2_limit": 6,
-        "collection_all_paddles_3": "pro-series",
+        "collection_all_paddles_3": "all-paddles",
         "collection_all_paddles_3_limit": 6
       }
     },
