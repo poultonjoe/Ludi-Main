@@ -1,16 +1,39 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "blog_hero": {
-            "type": "blog_hero"
-        },
-        "blog_articles": {
-            "type": "blog_articles"
-        }
+  "sections": {
+    "blog_hero": {
+      "type": "blog_hero",
+      "settings": {
+      }
     },
-    "layout": "blog",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "blog_hero",
-        "blog_articles"
-    ]
+    "blog_articles": {
+      "type": "blog_articles",
+      "settings": {
+      }
+    },
+    "prefooter_image_choi_mKAnnF": {
+      "type": "prefooter_image_choi",
+      "settings": {
+        "image_top_left": "shopify://shop_images/240623_-_Ludi12849-Edit-min.jpg",
+        "image_top_right": "shopify://shop_images/240623_-_Ludi12968-Edit-min.jpg",
+        "image_bottom_left": "shopify://shop_images/240623_-_Ludi12631-Edit-min.jpg",
+        "image_bottom_right": "shopify://shop_images/240623_-_Ludi13013-Edit-min.jpg"
+      }
+    }
+  },
+  "layout": "blog",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "blog_hero",
+    "blog_articles",
+    "prefooter_image_choi_mKAnnF"
+  ]
 }
