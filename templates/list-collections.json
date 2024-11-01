@@ -1,16 +1,39 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "list_collection_hero": {
-            "type": "list_collection_hero"
-        },
-        "list_collection": {
-            "type": "list_collection"
-        }
+  "sections": {
+    "list_collection_hero": {
+      "type": "list_collection_hero",
+      "settings": {
+      }
     },
-    "layout": "list-collections",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "list_collection_hero",
-        "list_collection"
-    ]
+    "list_collection": {
+      "type": "list_collection",
+      "settings": {
+      }
+    },
+    "prefooter_image_choi_4DAxUf": {
+      "type": "prefooter_image_choi",
+      "settings": {
+        "image_top_left": "shopify://shop_images/240623_-_Ludi12842-Edit-min.jpg",
+        "image_top_right": "shopify://shop_images/pickleball-row.jpg",
+        "image_bottom_left": "shopify://shop_images/240623_-_Ludi13151-Edit-min.jpg",
+        "image_bottom_right": "shopify://shop_images/240623_-_Ludi13013-Edit-min.jpg"
+      }
+    }
+  },
+  "layout": "list-collections",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "list_collection_hero",
+    "list_collection",
+    "prefooter_image_choi_4DAxUf"
+  ]
 }
