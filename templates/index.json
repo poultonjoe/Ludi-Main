@@ -28,7 +28,7 @@
         "text_headline": "Short heading here",
         "url_button_link": "",
         "text_button_text": "All products",
-        "collection_collection": "",
+        "collection_collection": "premiere-series",
         "collection_collection_limit": 6
       }
     },
@@ -38,7 +38,7 @@
         "text_headline": "Short heading here",
         "url_button_link": "",
         "text_button_text": "All products",
-        "collection_collection": "",
+        "collection_collection": "pro-series",
         "collection_collection_limit": 6
       }
     },
