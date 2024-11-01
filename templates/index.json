@@ -42,9 +42,13 @@
         "collection_collection_limit": 4
       }
     },
-    "standard_prefooter": {
-      "type": "standard_prefooter",
+    "prefooter_image_choi_Czwbcp": {
+      "type": "prefooter_image_choi",
       "settings": {
+        "image_top_left": "shopify://shop_images/240623_-_Ludi12842-Edit-min.jpg",
+        "image_top_right": "shopify://shop_images/240623_-_Ludi12711-Edit-min.jpg",
+        "image_bottom_left": "shopify://shop_images/240623_-_Ludi13343-Edit-min.jpg",
+        "image_bottom_right": "shopify://shop_images/240623_-_Ludi13224-Edit-min.jpg"
       }
     }
   },
@@ -54,6 +58,6 @@
     "hero",
     "category",
     "category_6AhiAg",
-    "standard_prefooter"
+    "prefooter_image_choi_Czwbcp"
   ]
 }
