@@ -36,7 +36,7 @@
       "type": "category",
       "settings": {
         "text_headline": "Pro Series",
-        "url_button_link": "",
+        "url_button_link": "https://www.ludipaddle.com/collections/pro-series?sort_by=created-descending",
         "text_button_text": "All products",
         "collection_collection": "pro-series",
         "collection_collection_limit": 4
