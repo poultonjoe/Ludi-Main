@@ -21,9 +21,13 @@
         "text_headline": "Recommended"
       }
     },
-    "product_prefooter_FPYqWt": {
-      "type": "product_prefooter",
+    "prefooter_image_choi_Mfbt4L": {
+      "type": "prefooter_image_choi",
       "settings": {
+        "image_top_left": "{{ product.metafields.custom.product_footer_image_top_left.value }}",
+        "image_top_right": "{{ product.metafields.custom.product_footer_image_top_right.value }}",
+        "image_bottom_left": "{{ product.metafields.custom.product_footer_image_bottom_left.value }}",
+        "image_bottom_right": "{{ product.metafields.custom.product_footer_image_bottom_right.value }}"
       }
     }
   },
@@ -32,6 +36,6 @@
   "order": [
     "product_hero",
     "product_recommended",
-    "product_prefooter_FPYqWt"
+    "prefooter_image_choi_Mfbt4L"
   ]
 }
