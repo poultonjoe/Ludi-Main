@@ -1,12 +1,35 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "text_cta": {
-            "type": "text_cta"
-        }
+  "sections": {
+    "text_cta": {
+      "type": "text_cta",
+      "settings": {
+        "text_headline": "Thanks for the message",
+        "text_text": "We'll be in touch soon."
+      }
     },
-    "layout": "page.thank-you",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "text_cta"
-    ]
+    "prefooter_image_choi_gcL6CP": {
+      "type": "prefooter_image_choi",
+      "settings": {
+        "image_top_left": "shopify://shop_images/240623_-_Ludi12842-Edit-min.jpg",
+        "image_top_right": "shopify://shop_images/240623_-_Ludi12826-Edit-min.jpg",
+        "image_bottom_left": "shopify://shop_images/240623_-_Ludi13402-Edit-min.jpg",
+        "image_bottom_right": "shopify://shop_images/240623_-_Ludi13151-Edit-min.jpg"
+      }
+    }
+  },
+  "layout": "page.thank-you",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "text_cta",
+    "prefooter_image_choi_gcL6CP"
+  ]
 }
