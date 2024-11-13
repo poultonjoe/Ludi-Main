@@ -17,7 +17,7 @@
       "type": "collection_products",
       "settings": {}
     },
-    "prefooter_image_choi_jiQaLx": {
+    "prefooter_image_choi_8c4Gkt": {
       "type": "prefooter_image_choi",
       "settings": {
         "image_top_left": "shopify://shop_images/240623_-_Ludi13013-Edit-min.jpg",
@@ -32,6 +32,6 @@
   "order": [
     "collection_hero",
     "collection_products",
-    "prefooter_image_choi_jiQaLx"
+    "prefooter_image_choi_8c4Gkt"
   ]
 }
