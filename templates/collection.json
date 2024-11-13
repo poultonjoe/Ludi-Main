@@ -20,10 +20,10 @@
     "prefooter_image_choi_jiQaLx": {
       "type": "prefooter_image_choi",
       "settings": {
-        "image_top_left": "shopify://shop_images/240623_-_Ludi12907-Edit-min.jpg",
-        "image_top_right": "shopify://shop_images/240623_-_Ludi13224-Edit-min.jpg",
+        "image_top_left": "shopify://shop_images/240623_-_Ludi13013-Edit-min.jpg",
+        "image_top_right": "shopify://shop_images/radiance-secondary.jpg",
         "image_bottom_left": "shopify://shop_images/pickleballs.jpg",
-        "image_bottom_right": "shopify://shop_images/240623_-_Ludi12631-Edit-min.jpg"
+        "image_bottom_right": "shopify://shop_images/240623_-_Ludi12622-Edit-min.jpg"
       }
     }
   },
