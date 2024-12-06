@@ -16,10 +16,10 @@
     "prefooter_image_choi_R3GYyb": {
       "type": "prefooter_image_choi",
       "settings": {
-        "image_top_left": "shopify://shop_images/240623_-_Ludi13151-Edit-min.jpg",
-        "image_top_right": "shopify://shop_images/240623_-_Ludi13128-Edit-min.jpg",
-        "image_bottom_left": "shopify://shop_images/240623_-_Ludi12826-Edit-min.jpg",
-        "image_bottom_right": "shopify://shop_images/240623_-_Ludi12842-Edit-min.jpg"
+        "image_top_left": "{{ page.metafields.custom.top_left_image.value }}",
+        "image_top_right": "{{ page.metafields.custom.top_right_image.value }}",
+        "image_bottom_left": "{{ page.metafields.custom.bottom_left_image.value }}",
+        "image_bottom_right": "{{ page.metafields.custom.bottom_right_image.value }}"
       }
     }
   },
